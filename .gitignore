@@ -42,3 +42,6 @@ site
 gha-creds-*.json
 
 .vercel/
+.env
+.env.*
+!.env.example
