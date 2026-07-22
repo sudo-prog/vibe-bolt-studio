@@ -24,7 +24,7 @@
     "typegen": "wrangler types",
     "preview": "pnpm run build && pnpm run start",
     "prepare": "husky",
-    "postinstall": "./scripts/postinstall.sh"
+    "postinstall": "bash ./scripts/postinstall.sh"
   },
   "engines": {
     "node": ">=18.18.0"
